@@ -179,7 +179,7 @@ describe('PUT /:id', () => {
         expect(status).toBe(HttpStatus.UNPROCESSABLE_ENTITY);
         expect(data).toEqual(
             expect.arrayContaining([
-                'Ein Automodell muss mit einem Autostaben, einer Ziffer oder _ beginnen.',
+                'Ein Automodell muss mit einem Buchstaben, einer Ziffer oder _ beginnen.',
                 `Eine Bewertung muss zwischen 0 und ${MAX_PS} liegen.`,
                 'Die Art eines Autos muss ELEKTRO oder VERBRENNER sein.',
                 'Der Hersteller eines Autos muss AUDI oder BMW sein.',
