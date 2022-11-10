@@ -1,0 +1,13 @@
+{
+  "modell": "Testmodellnummer",
+  "ps": 1,
+  "art": "ELEKTRO",
+  "hersteller": "AUDI",
+  "preis": 99.9,
+  "rabatt": 0.1,
+  "lieferbar": true,
+  "datum": "2022-01-31",
+  "modellnummer": "9783897225831",
+  "homepage": "https://test.de/",
+  "kategorien": ["KOMBI", "SUV"]
+}

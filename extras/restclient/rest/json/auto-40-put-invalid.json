@@ -1,0 +1,12 @@
+{
+  "modell": "?!",
+  "ps": 5,
+  "art": "UNSICHTBAR",
+  "hersteller": "IWI_HERSTELLER",
+  "preis": 9999,
+  "rabatt": 1,
+  "lieferbar": true,
+  "datum": "12345-123-123",
+  "modellnummer": "falsche-modellnummer",
+  "homepage": "anyHomepage"
+}

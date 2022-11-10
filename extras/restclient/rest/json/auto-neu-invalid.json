@@ -1,0 +1,12 @@
+{
+  "modell": "?!",
+  "ps": 2,
+  "art": "UNSICHTBAR",
+  "hersteller": "NO_HERSTELLER",
+  "preis": -1,
+  "rabatt": 0,
+  "lieferbar": true,
+  "datum": "12345-123-123",
+  "modellnummer": "falsche-modellnummer",
+  "homepage": "anyHomepage"
+}
