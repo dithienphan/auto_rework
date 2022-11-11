@@ -205,7 +205,7 @@ describe('GraphQL Mutations', () => {
                             id: "00000000-0000-0000-0000-000000000003",
                             version: 1,
                             modell: "?!$",
-                            ps: 999,
+                            ps: -999,
                             art: ELEKTRO,
                             hersteller: AUDI,
                             preis: -999,
@@ -243,7 +243,7 @@ describe('GraphQL Mutations', () => {
 
         expect(message).toEqual(expect.stringContaining(' Automodell '));
         expect(message).toEqual(
-            expect.stringContaining('Die PS muss zwischen 0 und 5 liegen.'),
+            expect.stringContaining('Die PS muss höher als 0 sein.'),
         );
         expect(message).toEqual(
             expect.stringContaining('Der Preis darf nicht negativ sein.'),
