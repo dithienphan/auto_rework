@@ -1,7 +1,5 @@
 import { type GenericJsonSchema } from './GenericJsonSchema.js';
 
-export const MAX_PS = 5;
-
 export const jsonSchema: GenericJsonSchema = {
     // naechstes Release: 2021-02-01
     $schema: 'https://json-schema.org/draft/2020-12/schema',
@@ -26,7 +24,6 @@ export const jsonSchema: GenericJsonSchema = {
         ps: {
             type: 'number',
             minimum: 0,
-            maximum: MAX_PS,
         },
         art: {
             type: 'string',
@@ -62,7 +59,7 @@ export const jsonSchema: GenericJsonSchema = {
         properties: {
             version: 'Die Versionsnummer muss mindestens 0 sein.',
             modell: 'Ein Automodell muss mit einem Buchstaben, einer Ziffer oder _ beginnen.',
-            ps: 'Die PS muss zwischen 0 und 5 liegen.',
+            ps: 'Die PS muss höher als 0 sein.',
             art: 'Die Art eines Autos muss ELEKTRO oder VERBRENNER sein.',
             hersteller: 'Der Hersteller eines Autos muss AUDI oder BMW sein.',
             preis: 'Der Preis darf nicht negativ sein.',

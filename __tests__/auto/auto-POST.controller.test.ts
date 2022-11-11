@@ -10,7 +10,6 @@ import {
 import { type AutoDTO } from '../../src/auto/rest/auto-write.controller.js';
 import { HttpStatus } from '@nestjs/common';
 import { ID_PATTERN } from '../../src/auto/service/auto-validation.service.js';
-import { MAX_PS } from '../../src/auto/service/jsonSchema.js';
 import { loginRest } from '../login.js';
 
 // -----------------------------------------------------------------------------
@@ -136,7 +135,7 @@ describe('POST /', () => {
         expect(data).toEqual(
             expect.arrayContaining([
                 'Ein Automodell muss mit einem Buchstaben, einer Ziffer oder _ beginnen.',
-                `Die PS muss zwischen 0 und ${MAX_PS} liegen.`,
+                'Die PS muss höher als 0 sein.',
                 'Die Art eines Autos muss ELEKTRO oder VERBRENNER sein.',
                 'Der Hersteller eines Autos muss AUDI oder BMW sein.',
                 'Der Rabatt muss ein Wert zwischen 0 und 1 sein.',
