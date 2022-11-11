@@ -243,9 +243,7 @@ describe('GraphQL Mutations', () => {
 
         expect(message).toEqual(expect.stringContaining(' Automodell '));
         expect(message).toEqual(
-            expect.stringContaining(
-                'Eine Bewertung muss zwischen 0 und 5 liegen.',
-            ),
+            expect.stringContaining('Die PS muss zwischen 0 und 5 liegen.'),
         );
         expect(message).toEqual(
             expect.stringContaining('Der Preis darf nicht negativ sein.'),

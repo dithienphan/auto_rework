@@ -136,7 +136,7 @@ describe('POST /', () => {
         expect(data).toEqual(
             expect.arrayContaining([
                 'Ein Automodell muss mit einem Buchstaben, einer Ziffer oder _ beginnen.',
-                `Eine Bewertung muss zwischen 0 und ${MAX_PS} liegen.`,
+                `Die PS muss zwischen 0 und ${MAX_PS} liegen.`,
                 'Die Art eines Autos muss ELEKTRO oder VERBRENNER sein.',
                 'Der Hersteller eines Autos muss AUDI oder BMW sein.',
                 'Der Rabatt muss ein Wert zwischen 0 und 1 sein.',

@@ -62,7 +62,7 @@ export const jsonSchema: GenericJsonSchema = {
         properties: {
             version: 'Die Versionsnummer muss mindestens 0 sein.',
             modell: 'Ein Automodell muss mit einem Buchstaben, einer Ziffer oder _ beginnen.',
-            ps: 'Eine Bewertung muss zwischen 0 und 5 liegen.',
+            ps: 'Die PS muss zwischen 0 und 5 liegen.',
             art: 'Die Art eines Autos muss ELEKTRO oder VERBRENNER sein.',
             hersteller: 'Der Hersteller eines Autos muss AUDI oder BMW sein.',
             preis: 'Der Preis darf nicht negativ sein.',
