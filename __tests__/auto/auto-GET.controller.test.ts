@@ -19,7 +19,7 @@ import each from 'jest-each';
 const modellVorhanden = ['a', 't', 'g'];
 const modellNichtVorhanden = ['xx', 'yy'];
 const kategorienVorhanden = ['kombi', 'suv'];
-const kategorienNichtVorhanden = ['csharp', 'php'];
+const kategorienNichtVorhanden = ['cabrio', 'sport'];
 
 // -----------------------------------------------------------------------------
 // T e s t s
