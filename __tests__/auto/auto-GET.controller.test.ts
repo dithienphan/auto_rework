@@ -1,3 +1,5 @@
+/* eslint-disable no-underscore-dangle */
+
 import { afterAll, beforeAll, describe, test } from '@jest/globals';
 import axios, { type AxiosInstance, type AxiosResponse } from 'axios';
 import {
