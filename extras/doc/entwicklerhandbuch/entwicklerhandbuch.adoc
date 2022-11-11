@@ -16,7 +16,7 @@
 // Preview durch <Strg><Shift>v
 
 = Entwickler/innen/handbuch
-Jürgen Zimmermann <Juergen.Zimmermann@h-ka.de>
+SWE Gruppe 10
 :doctype: book
 :toc: left
 :sectanchors:
