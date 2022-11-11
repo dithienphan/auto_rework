@@ -28,5 +28,5 @@ if ($versionMinimum -gt $versionCurrent) {
 # Modell setzen
 $host.ui.RawUI.WindowTitle = 'sonar-scanner'
 
-$password = '?????'
+$password = 'a'
 C:\Zimmermann\sonar-scanner\bin\sonar-scanner -D'sonar.login=admin' -D"sonar.password=$password"
